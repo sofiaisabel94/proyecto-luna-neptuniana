@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Tenor Sans", sans-serif;
+    color: #291360;
+}
+
+button{
+    background-color: #590068;
+    color: #FFE8DE; 
+    padding: .9375rem;
+} 
+
+.boton a{
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C0A3CF;
+    padding-right: 1.25rem;
+}
+
+.logo-header img{
+    width: 5rem;
+    padding-left: 1.25rem;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 3.125rem;  /* para el espaciado entre las palabras del nav */
+} 
+
+.navbar li a{
+    text-decoration: none;
+}
+
+/* Home */
+.fondo-home{
+    width: 100%;
+} 
+
+.fondo-home img{
+    width: 100%;
+}
+
+.section-explicaciones {
+    background-color: #FFE8DE;
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.section-explicaciones div h2{
+    font-size: 1.875rem;
+}
+.section-explicaciones div p{
+    font-size: 1.5625rem;
+    padding-top: .625rem;
+}
+
+.card-home1 {
+    /* width: 21.875rem; */
+    height: 25rem;
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: #C0A3CF;
+    margin-top: 3.4375rem;
+}
+
+.card-home2 {
+    /* width: 21.875rem; */
+    height: 25rem;
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: #D5C8DA;
+    margin-top: 10.9375rem;
+}
+
+.background-interactive{
+    width: 100%;
+    /* height: 50rem; */
+    padding: 1.25rem;
+    background-color: #5e5d7f;
+    color:#FFE8DE;
+    img {
+        width: 100%; 
+    }
+}
+
+
+.section-last-card{
+    display: flex;
+    justify-content: center;
+}
+
+.section-last-card div{ 
+    /* width: 43.75rem;
+    height: 15.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFE8DE; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFE8DE;
+    text-align: center;
+    h2 {
+        margin-top: 1.25rem;
+        margin-bottom: 0.625rem;
+    }
+    h3 {
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+    button {
+        margin-top: 0.625rem;
+        margin-bottom: 1.25rem;
+    }
+} 
+
+/* Sobre Mi */
+.section-sobre-mi{
+    background-color: #FFE8DE;
+    height: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.background-sobremi{
+    margin-top: 3.4375rem;
+    width: 18.75rem;
+    height: 34.375rem;
+
+}
+
+.card-sobremi1{
+    width: 26.5625rem;
+    height: 34.375rem;
+    margin-top: 12rem;
+    padding: .9375rem;
+    font-size: 1.25rem;
+    background-color: #590068;
+    color: #FFE8DE;
+}
+
+.card-sobremi2{
+    width: 40.625rem;
+    height: 43.75rem;
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: #D5C8DA;
+    font-size: 1.25rem;
+    padding-top: .625rem;
+}
+
+
+/* Servicios */
+.section-servicios{
+    padding: 1.25rem;
+    background-color: #5e5d7f;
+}
+
+.section-servicios h1 {
+    margin: 3.125rem;
+    color:#FFE8DE;
+}
+
+.card-servicios1{
+    width: 34.6875rem;
+    height: 28.125rem;
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: #FFE8DE;
+}
+
+.card-servicios2{
+    width: 34.6875rem;
+    height: 28.125rem;
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: #FFE8DE;
+    margin-top: 4.375rem;
+}
+
+.div-testimonios{
+    display: flex;
+    align-items: center;
+}
+
+.div-testimonios img{
+    width: 5rem;
+}
+
+.div-testimonios p{
+    margin: 1.25rem;
+}
+
+.div-testimonios p{
+    background-color: #B9AED8;
+    padding: .625rem;
+}
+
+.div-testimonios.testimonio2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Carta natal y revo */
+.div-fondo-cnrs img{
+    width: 100%;
+    height: 34.375rem;
+}
+
+.section-explicaciones-rscn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-cnrs{
+    width: 34.6875rem;
+    /* height: 31.25rem; */
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: #FFE8DE;
+}
+
+.section-ofrecer div{
+    width: 100%;
+    height: 25rem;
+    background-color: #9988BE;
+} 
+
+.section-ofrecer div p{
+    width: 68.75rem;
+    height: 20rem;
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5C8DA;
+}
+
+.section-incluye{  
+    width: 78.75rem;
+    height: 28.75rem;
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #590068;
+    color:#FFE8DE;
+} 
+
+
+/* Blog */
+.section-blog{
+    margin: 1.25rem;
+    
+}
+
+.fondo-blog img{
+    width: 100%;
+}
+
+.div-titulos h1{
+    width: 43.125rem;
+    height: 9.375rem;
+    background-color: #FFE8DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-titulos h2{
+    margin: 1.25rem;
+}
+
+.section-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-blog{
+    width: 24.6875rem;
+    height: 30rem;
+    padding: .625rem;
+    margin: 1.25rem;
+    border-radius: 1.25rem;
+    background-color: #FFE8DE;
+}
+
+/* Horoscopo */
+.main-horoscopo{
+    background-color:#FFE8DE;
+}
+
+.col-lg-6{
+    font-family: "Tenor Sans", sans-serif;
+    color: #291360; 
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #C0A3CF; 
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-icons p{
+    display: flex;
+    align-items: center;
+    padding-left: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        gap: 2rem;
+    }
+
+    .section-explicaciones {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .card-home1, .card-home2 {
+        width: 90%;
+    }
+
+    .card-servicios1, .card-servicios2 {
+        width: 90%;
+    }
+
+    .section-last-card div {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        
+    }
+
+    .logo-header img {
+        align-items: flex-start;
+        width: 4rem;
+    }
+
+    .navbar {
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 1rem;
+    }
+
+    .section-explicaciones {
+        height: auto;
+        flex-direction: column;
+        align-items:center;
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .logo-header img {
+        align-items: flex-start;
+        width: 3rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        /* align-items: flex-end; */
+        gap: 0.5rem;
+    }
+
+    .section-explicaciones {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-home1, .card-home2 {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .card-servicios1, .card-servicios2 {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .section-last-card div {
+        width: 100%;
+    }
+
+    footer p{
+        font-size: .625rem;
+    }    
+
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-icons img {
+        width: 1.5rem;
+    }
+}
+/* @media (max-width: 768px){
+
+}
+
+@media (max-width: 375px){
+    h2 {
+        font-size: 1.063rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    footer {
+        font-size: .5rem;
+        height: 100%;
+        img {
+            height: 0.875rem;
+            width: 0.875rem;
+        }
+    }
+    .section-explicaciones div{
+        }        
+        p {
+            font-size: 1.063rem;
+        }
+    
+        .logo-header img{
+            width: 100%;
+            height: 1.75rem;
+            padding-left: 0.5rem;
+            display: flex;
+            margin-top: 0.3125rem;
+            margin-bottom: 0.3125rem;
+        }
+    
+    } 
+    
+     */
