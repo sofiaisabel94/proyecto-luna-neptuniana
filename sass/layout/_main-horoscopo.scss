@@ -1,0 +1,7 @@
+.main-horoscopo{
+    background-color:map-get($colors, color1);
+    .col-lg-6{
+        font-family: "Tenor Sans", sans-serif;
+        color: map-get($colors, color8); 
+    }
+}

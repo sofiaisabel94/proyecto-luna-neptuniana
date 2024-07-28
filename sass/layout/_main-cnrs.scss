@@ -1,0 +1,68 @@
+
+.sec-explicacion-cnrs{
+    background-image: url(https://i.pinimg.com/736x/fd/23/39/fd2339d25e1bc8e27e58d33ef38394c1.jpg);
+    object-fit: cover;
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    .content-cnrs{
+        width: 21.875rem;
+        height: 25rem;
+        margin: 1.25rem;
+        padding: .9375rem;
+        background-color: map-get($colors, color1);
+        margin-top: 3.4375rem;
+        h1{
+            font-size: 1.875rem;
+        }
+        p{
+            font-size: 1.25rem;
+            padding-top: .625rem;
+        }
+    }
+}
+
+.section-ofrecer{
+    display: flex;
+    justify-content: center;
+    margin: 3.125rem 0rem 3.125rem 0rem;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background-color: map-get($colors, color5);
+        text-align: center;
+        .div-p{
+            width: 68.75rem;
+            height: 20rem;
+            margin: 1.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: map-get($colors, color2);
+            font-size: 1.5625rem;
+        }
+    } 
+}
+
+.section-incluye{ 
+    display: flex;
+    justify-content: center;
+    div{
+        width: 80%;
+        height: 21.875rem;
+        margin: 1.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: map-get($colors, color7);
+        color:map-get($colors, color1);
+        h2{
+            font-size: 1.875rem;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+// Header
+    header{
+        .navbar{
+            gap: 2rem;
+        }
+    }
+
+// Index 
+    .section-explicaciones {
+        height: auto;
+        .card-home1, .card-home2 {
+            width: 90%;
+            align-items: center;
+        }
+    }
+
+    .background-interactive{
+        a{
+            img{
+                width: 50%;
+            }
+        }
+    }        
+
+// Servicios 
+.section-servicios{
+    .card-servicios1, .card-servicios2{
+        width: 90%;
+    }
+}
+
+// Card general 
+    .section-last-card{
+        div {
+            width: 90%;
+        }
+    } 
+
+// Sobre mi 
+    .main-sobremi{
+        .section-sobre-mi{
+            height: 50rem;
+            .card-sobremi1{
+                p{
+                    font-size: 1.0625rem ;
+                }
+            } 
+            .card-sobremi2{
+                p{
+                    font-size: 1.25rem ;
+                }
+            }
+        }
+    }
+}

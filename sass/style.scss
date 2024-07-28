@@ -1,0 +1,23 @@
+// Bases
+@import "./base/fonts";
+@import "./base/resets";
+
+// Utilities
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+// Layouts
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-sobremi";
+@import "./layout/main-servicios";
+@import "./layout/main-cnrs";
+@import "./layout/main-blog";
+@import "./layout/main-horoscopo";
+@import "./layout/footer";
+
+// MediaQ
+@import "./responsive/desktop.scss";
+@import "./responsive/tablet.scss";
+@import "./responsive/mobile.scss"

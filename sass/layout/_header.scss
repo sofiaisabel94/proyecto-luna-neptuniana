@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: map-get($colors, color3);
+    padding-right: 1.25rem;
+    .logo-header img{
+        width: 5rem;
+        padding-left: 1.25rem;
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        gap: 3.125rem;  /* para el espaciado entre las palabras del nav */
+        li {
+            a{
+            text-decoration: none;
+            }
+            &:hover{
+                transform: scale(1.2);
+                transition: transform 200ms cubic-bezier(.25,.65,.83,.67);
+            }
+        }
+    } 
+}
+

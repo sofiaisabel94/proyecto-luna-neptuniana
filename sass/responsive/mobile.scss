@@ -1,0 +1,108 @@
+@media (max-width: 375px) {
+// Header
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        .logo-header{
+            img{
+                align-items: center;
+                padding-left: 0rem;
+                width: 3rem;
+            }
+        }
+        .navbar{
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+
+// Index 
+    .section-explicaciones{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        .card-home1{
+            width: 80%;
+            height: 18.75rem;
+            margin: 0.5rem 0;
+            p{
+                font-size: 1.0625rem;
+            }
+        .card-home2{
+            width: 80%;
+            height: 18.75rem;
+            margin-top: 0rem;
+        }
+        }
+    }
+
+    .section-last-card{
+        div{
+            width: 70%;
+            h2, h3{
+                font-size: .9375rem;
+            }
+        }
+    }
+
+// Servicios 
+    .section-servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonios{
+        .div-testimonio{
+            flex-direction: column;
+            .div-p{
+                font-size: .9375rem;
+            }
+        }
+    }
+
+// Sobre mi 
+    .main-sobremi{
+        height: 100rem;
+        .section-sobre-mi{
+            flex-wrap: wrap;
+            height: 100rem ;
+            div{
+                .background-sobremi{
+                    img{
+                        width: 100%;
+                        height: 9.375rem;
+                    }
+                }
+            }
+            .card-sobremi1{
+                margin-top: 0rem;
+                height: 21.875rem;
+                p{
+                    font-size: .9375rem ;
+                }
+            }
+            .card-sobremi2{
+                margin-top: 0rem ;
+                height: 23.125rem ;
+                p{
+                    font-size: .75rem;
+                }
+            }
+        }
+    }
+
+// Footer
+    footer{
+        .footer-icons{
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 1.5rem;
+            }
+            p{
+                font-size: .625rem;
+            }
+        }
+    }
+}

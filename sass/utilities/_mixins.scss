@@ -1,0 +1,22 @@
+@mixin boton{
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
+    background-color: map-get($colors, color7);
+    color: map-get($colors, color1); 
+    padding: .9375rem;
+    text-decoration: none;
+    transition: background-color, transform 500ms cubic-bezier(.25,.65,.83,.67);
+    &:hover {        
+        transform: scale(1.1);
+        background-color: map-get($colors, color3); 
+        color: map-get($colors, color7); 
+    }
+}
+
+@mixin card-servicios{
+    width: 34.6875rem;
+    height: 28.125rem;
+    margin: 1.25rem;
+    padding: .9375rem;
+    background-color: map-get($colors, color1);
+}
