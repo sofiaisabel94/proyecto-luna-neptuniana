@@ -24,14 +24,15 @@ header {
     gap: 3.125rem;
     /* para el espaciado entre las palabras del nav */ }
     header .navbar li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #590068; }
     header .navbar li:hover {
       transform: scale(1.2);
       transition: transform 200ms cubic-bezier(0.25, 0.65, 0.83, 0.67); }
 
 .fondo-home {
   width: 100%;
-  height: 50rem;
+  height: 37.3125rem;
   overflow: hidden; }
   .fondo-home img {
     width: 100%;
@@ -253,6 +254,8 @@ header {
 
 .card-servicios2 {
   margin-top: 4.375rem; }
+  .card-servicios2 a {
+    margin-top: 3.125rem; }
 
 .testimonios {
   display: flex;
@@ -385,9 +388,9 @@ header {
       font-size: 1.875rem; }
 
 .section-blog {
+  height: 30rem;
   background-image: url(https://i.pinimg.com/originals/dc/ac/c9/dcacc974907a283e10bc35ce4ac946e5.jpg);
   object-fit: cover;
-  height: 30rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -467,6 +470,8 @@ footer {
     width: 50%; }
   .section-servicios .card-servicios1, .section-servicios .card-servicios2, .section-servicios .card-servicios2 {
     width: 90%; }
+  .section-servicios .card-servicios2 a {
+    margin-top: 1.875rem; }
   .section-last-card div {
     width: 90%; }
   .main-sobremi .section-sobre-mi {
@@ -474,7 +479,17 @@ footer {
     .main-sobremi .section-sobre-mi .card-sobremi1 p {
       font-size: 1.0625rem; }
     .main-sobremi .section-sobre-mi .card-sobremi2 p {
-      font-size: 1.25rem; } }
+      font-size: 1.25rem; }
+  .section-ofrecer div {
+    width: 90%; }
+    .section-ofrecer div .div-p {
+      width: 50rem; }
+  .section-incluye div ul, .section-incluye div p {
+    padding: .625rem; }
+  .section-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; } }
 
 @media (max-width: 768px) {
   header {
@@ -500,6 +515,8 @@ footer {
   .section-servicios .card-servicios1 p, .section-servicios .card-servicios2 p {
     margin: 0rem;
     padding-bottom: 0rem; }
+  .section-servicios .card-servicios2 a {
+    margin-top: 1.875rem; }
   .main-sobremi {
     height: 70rem; }
     .main-sobremi .section-sobre-mi {
@@ -512,7 +529,97 @@ footer {
       .main-sobremi .section-sobre-mi .card-sobremi2 {
         height: 23.125rem; }
         .main-sobremi .section-sobre-mi .card-sobremi2 p {
-          font-size: 1.25rem; } }
+          font-size: 1.25rem; }
+  .section-ofrecer div {
+    width: 80%; }
+    .section-ofrecer div .div-p {
+      width: 31.25rem; }
+  .section-incluye div ul, .section-incluye div p {
+    padding: 1.25rem; }
+  .section-blog .div-titulo h1 {
+    width: 34.375rem; }
+  .section-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; }
+    .section-cards .card-blog {
+      width: 18.75rem; }
+      .section-cards .card-blog img {
+        width: 17.5rem; } }
+
+@media (max-width: 425px) {
+  .section-explicaciones {
+    height: auto;
+    flex-direction: column;
+    align-items: center; }
+    .section-explicaciones .card-home1, .section-explicaciones .card-home2 {
+      width: 80%;
+      height: 18.75rem;
+      margin: 0.5rem 0; }
+      .section-explicaciones .card-home1 p, .section-explicaciones .card-home2 p {
+        font-size: 1.0625rem; }
+    .section-explicaciones .card-home2 {
+      width: 70%;
+      height: 18.75rem;
+      margin-top: 0rem !important; }
+  .section-servicios {
+    flex-direction: column;
+    align-items: center; }
+  .testimonios .div-testimonio {
+    flex-direction: column; }
+    .testimonios .div-testimonio .div-p {
+      font-size: .9375rem; }
+  .main-sobremi {
+    height: 100rem; }
+    .main-sobremi .section-sobre-mi {
+      flex-wrap: wrap;
+      height: 100rem; }
+      .main-sobremi .section-sobre-mi div .background-sobremi img {
+        width: 100%;
+        height: 9.375rem; }
+      .main-sobremi .section-sobre-mi .card-sobremi1 {
+        margin-top: 0rem;
+        height: 21.875rem; }
+        .main-sobremi .section-sobre-mi .card-sobremi1 p {
+          font-size: .9375rem; }
+      .main-sobremi .section-sobre-mi .card-sobremi2 {
+        margin-top: 0rem;
+        height: 23.125rem; }
+        .main-sobremi .section-sobre-mi .card-sobremi2 p {
+          font-size: .875rem; }
+  .sec-explicacion-cnrs {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .section-ofrecer div {
+    width: 90%; }
+    .section-ofrecer div .div-p {
+      width: 18.75rem; }
+  .section-incluye div h2 {
+    font-size: 1.4375rem; }
+  .section-incluye div ul, .section-incluye div p {
+    padding: .625rem;
+    font-size: .8125rem; }
+  .section-blog {
+    height: 20rem; }
+    .section-blog .div-titulo h1 {
+      width: 19.0625rem; }
+  .section-cards {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center; }
+    .section-cards .card-blog {
+      width: 18.75rem; }
+      .section-cards .card-blog img {
+        width: 17.5rem; }
+  footer .footer-icons {
+    flex-direction: column;
+    align-items: center; }
+    footer .footer-icons img {
+      width: 1.5rem; }
+    footer .footer-icons p {
+      font-size: .625rem; } }
 
 @media (max-width: 375px) {
   header {
@@ -536,10 +643,10 @@ footer {
       margin: 0.5rem 0; }
       .section-explicaciones .card-home1 p, .section-explicaciones .card-home2 p {
         font-size: 1.0625rem; }
-      .section-explicaciones .card-home1 .card-home2, .section-explicaciones .card-home2 .card-home2 {
-        width: 80%;
-        height: 18.75rem;
-        margin-top: 0rem; }
+    .section-explicaciones .card-home2 {
+      width: 80%;
+      height: 18.75rem;
+      margin-top: 0rem !important; }
   .section-last-card div {
     width: 70%; }
     .section-last-card div h2, .section-last-card div h3 {
@@ -569,6 +676,32 @@ footer {
         height: 23.125rem; }
         .main-sobremi .section-sobre-mi .card-sobremi2 p {
           font-size: .75rem; }
+  .sec-explicacion-cnrs {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .section-ofrecer div {
+    width: 90%; }
+    .section-ofrecer div .div-p {
+      width: 18.75rem; }
+  .section-incluye div h2 {
+    font-size: 1.4375rem; }
+  .section-incluye div ul, .section-incluye div p {
+    padding: .625rem;
+    font-size: .8125rem; }
+  .section-blog {
+    height: 20rem; }
+    .section-blog .div-titulo h1 {
+      width: 19.0625rem; }
+  .section-cards {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center; }
+    .section-cards .card-blog {
+      width: 18.75rem; }
+      .section-cards .card-blog img {
+        width: 17.5rem; }
   footer .footer-icons {
     flex-direction: column;
     align-items: center; }

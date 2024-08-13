@@ -1,22 +1,4 @@
-@media (max-width: 375px) {
-// Header
-    header{
-        flex-direction: column;
-        justify-content: space-around;
-        .logo-header{
-            img{
-                align-items: center;
-                padding-left: 0rem;
-                width: 3rem;
-            }
-        }
-        .navbar{
-            flex-direction: column;
-            align-items: center;
-            gap: 1rem;
-        }
-    }
-
+@media (max-width: 425px) {
 // Index 
     .section-explicaciones{
         height: auto;
@@ -29,20 +11,11 @@
             p{
                 font-size: 1.0625rem;
             }
+        }
         .card-home2{
-            width: 80%;
-            height: 18.75rem;
-            margin-top: 0rem;
-        }
-        }
-    }
-
-    .section-last-card{
-        div{
             width: 70%;
-            h2, h3{
-                font-size: .9375rem;
-            }
+            height: 18.75rem;
+            margin-top: 0rem !important; //Pisa el important de la linea 41 de _main.index.scss
         }
     }
 
@@ -86,8 +59,59 @@
                 margin-top: 0rem ;
                 height: 23.125rem ;
                 p{
-                    font-size: .75rem;
+                    font-size: .875rem;
                 }
+            }
+        }
+    }
+
+// Carta natal y revo solar
+    .sec-explicacion-cnrs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-ofrecer{
+        div{
+            width: 90%;
+            .div-p{
+                width: 18.75rem;
+            }
+        }
+    }
+
+    .section-incluye{
+        div{
+            h2{
+                font-size: 1.4375rem;
+            }
+            ul, p{
+                padding: .625rem;
+                font-size: .8125rem;
+            }
+        }
+    }
+
+// Blog
+    .section-blog{
+        height: 20rem;
+        .div-titulo{
+            h1{
+                width: 19.0625rem;
+            }
+        }
+    }
+
+    .section-cards{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        .card-blog{
+            width: 18.75rem;
+            img{
+                width: 17.5rem;
             }
         }
     }

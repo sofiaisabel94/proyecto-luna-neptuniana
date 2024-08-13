@@ -47,6 +47,11 @@
                 padding-bottom: 0rem;
             }
         }
+        .card-servicios2{
+            a{
+                margin-top: 1.875rem;
+            }
+        }
     }
 
 // Sobre mi
@@ -66,6 +71,45 @@
                 p{  
                     font-size: 1.25rem ;
                 }
+            }
+        }
+    }
+
+// Carta natal y revo solar
+    .section-ofrecer{
+        div{
+            width: 80%;
+            .div-p{
+                width: 31.25rem;
+            }
+        }
+    }
+
+    .section-incluye{
+        div{
+            ul, p{
+                padding: 1.25rem;
+            }
+        }
+    }
+
+// Blog
+    .section-blog{
+        .div-titulo{
+            h1{
+                width: 34.375rem;
+            }
+        }
+    }
+
+    .section-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        .card-blog{
+            width: 18.75rem;
+            img{
+                width: 17.5rem;
             }
         }
     }

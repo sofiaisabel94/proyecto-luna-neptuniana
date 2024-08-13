@@ -28,6 +28,11 @@
     .card-servicios1, .card-servicios2{
         width: 90%;
     }
+    .card-servicios2{
+        a{
+            margin-top: 1.875rem;
+        }
+    }
 }
 
 // Card general 
@@ -52,5 +57,30 @@
                 }
             }
         }
+    }
+
+// Carta natal y revo solar
+    .section-ofrecer{
+        div{
+            width: 90%;
+            .div-p{
+                width: 50rem;
+            }
+        }
+    }
+
+    .section-incluye{
+        div{
+            ul, p{
+                padding: .625rem;
+            }
+        }
+    }
+
+// Blog
+    .section-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 }
